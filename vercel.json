@@ -1,1 +1,7 @@
-{ "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }] }
+{
+  "rewrites": [
+    { "source": "/trident/assets/:path*", "destination": "/assets/:path*" },
+    { "source": "/trident/favicon.png", "destination": "/favicon.png" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
